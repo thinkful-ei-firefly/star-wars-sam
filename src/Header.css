@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Poller+One&display=swap');
+
+.Header h1 {
+  text-align: center;
+  font-family: 'Poller One', cursive;
+  color: yellow;
+  background-color: black;
+  margin-top: 0;
+  padding: 10px;
+}
+
+@media screen and (min-width: 505px) {
+  .Header {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 808px) {
+  .Header {
+    font-size: 22px;
+  }
+}

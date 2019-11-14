@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poller+One&display=swap');
+
+.Results {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid grey;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .7);
+  color: white
+}
+
+.Results h2 {
+  font-family: 'Poller One', cursive;
+}
+
+.Results ul {
+  list-style: none;
+  padding: 0 0 20px 0;
+}
+
+.Results li {
+  margin-top: 10px;
+}
+
+.Results_error {
+  color: red;
+}
+
+@media screen and (min-width: 505px) {
+  .Results {
+    font-size: 20px;
+    width: 420px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 808px) {
+  .Results {
+    font-size: 22px;
+    width: 620px;
+    margin-top: 40px;
+  }
+}
